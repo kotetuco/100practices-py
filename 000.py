@@ -13,5 +13,5 @@ def reverse(input):
     return output
 
 if __name__ == '__main__':
-    input = "stressed"
+    input = 'stressed'
     print reverse(input)
