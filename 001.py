@@ -7,7 +7,9 @@
 #
 
 def pull_odd(input):
-    # reference to : http://dev.chrisryu.com/2008/07/python_array_slice.html
+    """
+    reference to : http://dev.chrisryu.com/2008/07/python_array_slice.html
+    """
     output = input[0::2]
     return output
 
