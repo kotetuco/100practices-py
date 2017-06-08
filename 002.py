@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 
-#
-# No.02
-# (http://www.cl.ecei.tohoku.ac.jp/nlp100/)
-# This code is executed in python2.7.x
-#
-
-# 
+"""
+No.02
+(http://www.cl.ecei.tohoku.ac.jp/nlp100/)
+This code is executed in python2.7.x
+"""
+ 
 def join_alternately(input1, input2):
     """
     output: [input1[0], input2[0], input1[1], input2[2], ...]
