@@ -18,7 +18,7 @@ def words(input):
     reference to : http://python.civic-apps.com/string-split-join/
     """
     
-    return input.strip(".").split(' ')
+    return input.replace('.', '').replace(',', '').split(' ')
 
 if __name__ == '__main__':
     input = 'Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.'
