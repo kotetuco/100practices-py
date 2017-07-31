@@ -3,7 +3,7 @@
 """
 No.03
 (http://www.cl.ecei.tohoku.ac.jp/nlp100/)
-This code is executed in python2.7.x
+This code is executed in python3.6.1
 """
 
 def words_count(input):
@@ -11,7 +11,7 @@ def words_count(input):
     reference to : http://python.civic-apps.com/map-reduce-filter/
     """
     
-    return map(lambda n:len(n), input)
+    return list(map(lambda n:len(n), input))
 
 def words(input):
     """
@@ -22,4 +22,4 @@ def words(input):
 
 if __name__ == '__main__':
     input = 'Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics.'
-    print words_count(words(input))
+    print(words_count(words(input)))

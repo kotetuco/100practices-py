@@ -3,7 +3,7 @@
 """
 No.02
 (http://www.cl.ecei.tohoku.ac.jp/nlp100/)
-This code is executed in python2.7.x
+This code is executed in python3.6.1
 """
  
 def join_alternately(input1, input2):
@@ -22,4 +22,4 @@ def join_alternately(input1, input2):
 if __name__ == '__main__':
     input1 = u'パトカー'
     input2 = u'タクシー'
-    print join_alternately(input1, input2)
+    print(join_alternately(input1, input2))

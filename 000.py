@@ -3,7 +3,7 @@
 """
 No.00
 (http://www.cl.ecei.tohoku.ac.jp/nlp100/)
-This code is executed in python2.7.x
+This code is executed in python3.6.1
 """
 
 def reverse(input):
@@ -17,4 +17,4 @@ def reverse(input):
 
 if __name__ == '__main__':
     input = 'stressed'
-    print reverse(input)
+    print(reverse(input))

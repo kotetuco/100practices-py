@@ -3,7 +3,7 @@
 """
 No.04
 (http://www.cl.ecei.tohoku.ac.jp/nlp100/)
-This code is executed in python2.7.x
+This code is executed in python3.6.1
 """
 
 def extract_characters(input):
@@ -24,4 +24,4 @@ def words(input):
 
 if __name__ == '__main__':
     input = 'Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can.'
-    print extract_characters(words(input))
+    print(extract_characters(words(input)))
